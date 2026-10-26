@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # ========================================================
 # StudyTrack Pro - GitHub Synchronization Script
+# Repository: https://github.com/tamilsabari397-dev/task.git
 # ========================================================
 
 set -e
@@ -14,9 +15,9 @@ git add .
 COMMIT_MSG="${1:-feat: update StudyTrack Pro student task manager}"
 git commit -m "$COMMIT_MSG" || echo "No new changes to commit."
 
-# Push to GitHub
-echo "📤 Pushing to branch 'studytrack-pro' on GitHub..."
-git push origin main:studytrack-pro
+# Push to GitHub main branch
+echo "📤 Pushing to branch 'main' on GitHub..."
+git push -u origin main
 
 echo "✅ Successfully pushed to GitHub!"
-echo "🔗 View at: https://github.com/tamilsabari397-dev/student-management-system/tree/studytrack-pro"
+echo "🔗 View at: https://github.com/tamilsabari397-dev/task"

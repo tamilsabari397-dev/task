@@ -171,8 +171,8 @@ CREATE TABLE IF NOT EXISTS tasks (
 
 ### 2. Clone and Install
 ```bash
-git clone https://github.com/tamilsabari397-dev/student-task-manager.git
-cd student-task-manager
+git clone https://github.com/tamilsabari397-dev/task.git
+cd task
 npm install
 ```
 
@@ -241,7 +241,7 @@ git add .
 git commit -m "feat: initial release of StudyTrack Pro student task manager"
 
 # 3. Add remote (replace with your repo URL)
-git remote add origin git@github.com:tamilsabari397-dev/student-task-manager.git
+git remote add origin git@github.com:tamilsabari397-dev/task.git
 
 # 4. Push to GitHub
 git push -u origin main
